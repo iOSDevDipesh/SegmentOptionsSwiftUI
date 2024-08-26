@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedSegmentIndex = 0
-    let segmentTitles = ["$", "USD"]
+    let segmentTitles = ["$", "USD", "EUR", "GBP"]
     
     var body: some View {
         VStack {
